@@ -1,0 +1,19 @@
+vue template 101
+==============================
+<template>
+</template>
+<script>
+export default {
+
+}
+</script>
+<style>
+</style>
+//parents 
+<script>
+import Message from './components/Message.vue'
+export default {
+  name: 'app',
+  components: {Message},
+}
+</script>
