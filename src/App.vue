@@ -1,23 +1,12 @@
 <template>
-  <div>
-    <Message>hello world inside message</Message>
-    <Message>hello world inside message</Message>
-    <Message>hello world inside message</Message>
-    <Message>hello world inside message</Message>
-    <Message>hello world inside message</Message>
-  </div>
+  <Counter></Counter>
 </template>
 
 <script>
-import Message from './components/Message.vue'
+import Counter from './components/Counter.vue'
 export default {
   name: 'app',
-  components: {Message},
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
+  components: {Counter},
 }
 </script>
 
